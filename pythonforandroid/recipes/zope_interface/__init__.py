@@ -1,7 +1,7 @@
 
 from pythonforandroid.toolchain import PythonRecipe, shprint, current_directory
 from os.path import join
-import sh
+import pythonforandroid.sh as sh
 
 
 class ZopeInterfaceRecipe(PythonRecipe):

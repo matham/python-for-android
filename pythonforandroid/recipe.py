@@ -5,7 +5,7 @@ import glob
 from shutil import rmtree
 from six import PY2, with_metaclass
 
-import sh
+import pythonforandroid.sh as sh
 import shutil
 import fnmatch
 from os import listdir, unlink, environ, mkdir, curdir, walk

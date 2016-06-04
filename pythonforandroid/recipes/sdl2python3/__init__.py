@@ -1,5 +1,5 @@
 from pythonforandroid.toolchain import BootstrapNDKRecipe, shprint, current_directory
-import sh
+import pythonforandroid.sh as sh
 
 
 class LibSDL2Recipe(BootstrapNDKRecipe):

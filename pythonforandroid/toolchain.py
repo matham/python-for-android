@@ -21,7 +21,7 @@ import shlex
 from functools import wraps
 
 import argparse
-import sh
+import pythonforandroid.sh as sh
 from appdirs import user_data_dir
 
 from pythonforandroid.recipe import (Recipe, PythonRecipe, CythonRecipe,
